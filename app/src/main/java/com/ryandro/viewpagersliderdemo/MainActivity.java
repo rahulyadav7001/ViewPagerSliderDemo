@@ -47,9 +47,6 @@ public class MainActivity extends AppCompatActivity {
                     pageCount = 0;
                 }
                 mviewPager.setCurrentItem(pageCount++);
-//                if(mviewPager.isShown()) {
-//                    mviewPager.setPageMargin(0);
-//                }
                 setIndicator(pageCount);
             }
         };
